@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Kampanyalar"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/recCampaign"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="650dp">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+    <Button
+        android:text="GERİ"
+        android:textSize="30sp"
+        android:id="@+id/btnBack"
+        android:background="@drawable/button_selector_rectangle"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:layout_marginBottom="15dp"
+        android:layout_width="250dp"
+        android:layout_height="70dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_alignTop="@+id/fabMen"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="#076dfa" />
+
+</android.support.design.widget.CoordinatorLayout>

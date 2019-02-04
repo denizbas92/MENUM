@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="18sp"
+                android:text="Parola Sıfırlama Sorusu Seçiniz. Bu kısımdaki ayarlarınız şifrenizi unutmanız halinde tekrar elde etmeniz için çok önemlidir."
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="En çok sevdiğiniz yemek hangisi ?"
+                    android:id="@+id/rbFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rbCity"
+                    android:text="En çok hangi şehire gitmek istersiniz ?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/rbBook"
+                    android:text="En çok sevdiğiniz kitap hangisi ?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+            <TextView
+                android:textSize="18sp"
+                android:id="@+id/tvQuestion"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="18sp"
+                android:id="@+id/tvAnswer"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnExit"
+                    android:text="ÇIKIŞ"
+                    android:textSize="23sp"
+                    android:layout_weight="1"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_selector_rectangle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnSave"
+                    android:text="KAYDET"
+                    android:layout_weight="1"
+                    android:textSize="23sp"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_selector_rectangle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

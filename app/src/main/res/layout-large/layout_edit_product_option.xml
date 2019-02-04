@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="menum.menum.MainScreenPackage.EditProductImage">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnProductSettings"
+                android:text="Ürün Bilgisi Ayarları"
+                android:textAllCaps="false"
+                android:textSize="33sp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_selector_rectangle"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <Button
+                android:id="@+id/btnImageSettings"
+                android:text="Resim Ayarları"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:textSize="33sp"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_selector_rectangle"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

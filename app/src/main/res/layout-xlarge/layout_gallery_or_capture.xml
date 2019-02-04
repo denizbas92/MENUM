@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnCapture"
+                android:text="KAMERA"
+                android:drawableTop="@drawable/ic_photo_camera_large"
+                android:textSize="35sp"
+                android:textColor="#fff"
+                android:background="@drawable/button_main_screen"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+            <Button
+                android:layout_marginLeft="5dp"
+                android:id="@+id/btnGallery"
+                android:text="GALERİ"
+                android:drawableTop="@drawable/ic_gallery_large"
+                android:textSize="35sp"
+                android:textColor="#fff"
+                android:background="@drawable/button_main_screen"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

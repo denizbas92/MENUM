@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/imPersonnelIcon"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_marginTop="10dp"
+                    android:text="DENİZ"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="DENİZ"
+                    android:id="@+id/tvSurname"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnVoteDetail"
+                    android:background="@drawable/button_main_screen"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:textColor="#fff"
+                    android:text="OY DETAYLARI"
+                    android:textSize="30sp" />
+
+                <LinearLayout
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/l1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/btnDelete"
+                        android:background="@drawable/button_main_screen"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:textColor="#fff"
+                        android:text="SİL"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/btnEdit"
+                        android:background="@drawable/button_main_screen"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:paddingRight="10dp"
+                        android:text="DÜZENLE"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+                </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recAdviceComplaint"
+            android:layout_width="match_parent"
+            android:layout_height="900dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnBack"
+            android:text="GERİ"
+            android:background="#0842e1"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:layout_marginRight="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+    </LinearLayout>
+
+</RelativeLayout>

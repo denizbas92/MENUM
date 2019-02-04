@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvMenuCategoryName"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:fontFamily="@font/allerta_stencil"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvProductName"
+                android:gravity="center"
+                android:textSize="37sp"
+                android:fontFamily="@font/allerta_stencil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:hint="Yorum Giriniz"
+                    android:id="@+id/etComment"
+                    android:gravity="top"
+                    android:textSize="38sp"
+                    android:lines="6"
+                    android:maxLines="10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:text="GÖNDER"
+                android:id="@+id/btnSend"
+                android:background="@drawable/button_selector_rectangle"
+                android:layout_margin="5dp"
+                android:textSize="35sp"
+                android:textColor="#fff"
+                android:layout_gravity="right"
+                android:layout_width="250dp"
+                android:layout_height="90dp" />
+            <Button
+                android:layout_marginTop="20dp"
+                android:text="GERİ"
+                android:id="@+id/btnBack"
+                android:textColor="#fff"
+                android:textSize="35sp"
+                android:layout_marginRight="150dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_selector_rectangle"
+                android:layout_width="match_parent"
+                android:layout_height="90dp" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recComments"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Personeller"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/allerta_stencil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recPersonnel"
+            android:layout_width="match_parent"
+            android:layout_height="950dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnBack"
+            android:text="GERİ"
+            android:background="@drawable/button_selector_rectangle"
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginBottom="19dp"
+            android:layout_height="90dp" />
+    </LinearLayout>
+</RelativeLayout>

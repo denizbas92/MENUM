@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="menum.menum.MainScreenPackage.EditProductImage">
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="EKLE/DEĞİŞTİR"
+            android:textSize="28sp"
+            android:id="@+id/btnAddImage"
+            android:background="@drawable/button_main_screen"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+        <Button
+            android:text="SİL"
+            android:textSize="28sp"
+            android:id="@+id/btnDelete"
+            android:background="@drawable/button_main_screen"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_above="@+id/btnExit"
+        android:layout_below="@+id/topLayout"
+        android:id="@+id/imProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_main_screen"
+        android:text="ÇIKIŞ"
+        android:textColor="#fff"
+        android:textSize="28sp" />
+</RelativeLayout>

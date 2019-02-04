@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "365543261060",
+    "firebase_url": "https://menum-b8cf6.firebaseio.com",
+    "project_id": "menum-b8cf6",
+    "storage_bucket": "menum-b8cf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365543261060:android:877cca1f1dff8579",
+        "android_client_info": {
+          "package_name": "menum.menum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365543261060-2qpieoff8o3on7eq4q2abqr14o81sqpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmqJc_SPfT1O0CmXX_fQQhleQiIkv8HCk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
